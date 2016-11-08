@@ -70,7 +70,7 @@ mysql_select_db("user_db"); //select database
 	 $check_email = "select * from users where user_name='$user_email'";
 
 	 $run = mysql_query($check_email);
-
+	//aa run nahi thatu 
 	 if(mysql_num_rows($run) > 0) {
 	 	echo "<script>alert('Email $user_email is already exist in our database. Please try another one.')</script>";
 	 	exit();
