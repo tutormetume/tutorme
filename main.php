@@ -31,6 +31,7 @@
       <li><a href="#">Student</a></li> 
     </ul>
     <ul class="nav navbar-nav navbar-right">
+      <li><a href="#register">Register</a></li>
       <li><a href="#about">Login</a></li>
     </ul>
   </div>
